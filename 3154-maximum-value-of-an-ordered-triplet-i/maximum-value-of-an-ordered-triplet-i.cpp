@@ -8,8 +8,7 @@ public:
             {
                 for(int k=j+1;k<nums.size();k++)
                 {
-                    long long e=((long long)(nums[i]-nums[j])*(long long)nums[k]);
-                    p.push(e);
+                    p.push(((long long)(nums[i]-nums[j])*(long long)nums[k]));
                 }
             }
         }
