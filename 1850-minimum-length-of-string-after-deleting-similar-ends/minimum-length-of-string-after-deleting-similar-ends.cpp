@@ -27,7 +27,6 @@ public:
                 i++;
                 j--;
             }
-            cout<<c<<" ";
             if(s[i]!=s[j]) break;
         }
         return s.size()-c;
