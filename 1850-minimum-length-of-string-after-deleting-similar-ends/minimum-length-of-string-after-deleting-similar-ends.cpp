@@ -10,18 +10,18 @@ public:
                 c+=1;
                 i++;
             }
-            else if(s[i]==s[j] && s[j]==s[j-1] && (j-1)!=i)
+             if(s[i]==s[j] && s[j]==s[j-1] && (j-1)!=i)
             {
                 c+=1;
                 j-=1;
             }
-            else if(s[i]==s[j] && s[i]!=s[i+1] && s[j]!=s[j-1])
+             if(s[i]==s[j] && s[i]!=s[i+1] && s[j]!=s[j-1])
             {
                 c+=2;
                 i++;
                 j--;
             }
-            else if(s[i]==s[j] && i+1==j)
+             if(s[i]==s[j] && i+1==j)
             {
                 c+=2;
                 i++;
