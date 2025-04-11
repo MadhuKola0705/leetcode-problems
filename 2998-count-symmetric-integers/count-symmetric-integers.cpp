@@ -10,7 +10,10 @@ public:
                 for(int j=0;j<(f.size()/2);j++)
                 {
                     s+=(f[j]-'0');
-                    q+=(f[f.size()-j-1]-'0');
+                }
+                for(int j=(f.size()/2);j<f.size();j++)
+                {
+                    q+=(f[j]-'0');
                 }
                 if(s==q) v+=1;
             }
